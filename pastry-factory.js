@@ -4,7 +4,7 @@ class AbstractPastryFactory {
   }
 
   makePastry() {
-    console.log('this maker doesn\'t actually make pastries\n');
+    console.log('this maker doesn\'t actually make pastries\nthis is from the abstract factory only if the concrete factory doesn\'t have a makePastry method of its own!');
   }
 }
 
