@@ -4,7 +4,7 @@ class AbstractPastryFactory {
   }
 
   makePastry() {
-    console.log('this factory doesn\'t actually make pastries');
+    console.log('this maker doesn\'t actually make pastries\n');
   }
 }
 

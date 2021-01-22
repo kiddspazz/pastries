@@ -5,10 +5,10 @@ class CroissantFactory extends pastryFactory.AbstractPastryFactory {
     super();
   }
 
-  makePastry() {
-    console.log('the croissant maker is making a croissant:\n');
-    //console.log(croissant.join('\n'));
-  }
+//  makePastry() {
+//    console.log('the croissant maker is making a croissant:\n');
+//    console.log(croissant.join('\n'));
+//  }
 }
 
 exports.CroissantFactory = CroissantFactory;
